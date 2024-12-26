@@ -1,15 +1,10 @@
 package org.timowa.controller;
 
-import lombok.Cleanup;
-import lombok.RequiredArgsConstructor;
-import org.hibernate.Session;
-import org.hibernate.SessionFactory;
 import org.timowa.database.entity.Task;
 import org.timowa.database.repository.TaskRepository;
 import org.timowa.service.TaskService;
 import org.timowa.util.HibernateUtil;
 
-import java.lang.reflect.Proxy;
 import java.util.Scanner;
 
 public class TaskController {
